@@ -1,0 +1,274 @@
+
+html, body {
+  font-size: 100px;
+  padding: 0;
+  margin: 0;
+}
+h1, h2, h3, h4, h5, p, a, ul, li, span, img {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  font-weight: 100;
+  list-style: none;
+}
+a, a:hover, a:active, a:link, a:focus, a:visited{
+  color: #000000;
+  background-color: transparent !important;
+}
+
+.app {
+  font-size: .14rem
+}
+
+.lm {
+  &-block {
+    min-height: 100vh;
+  }
+  &-t {
+    &c {text-align: center;vertical-align: middle;}
+    &r {text-align: right;}
+    &l {text-align: left;}
+    &t {vertical-align: top;}
+  }
+
+  &-oh {
+    overflow: hidden;
+    &-y {
+      overflow-y: hidden;
+      overflow-x: auto;
+    }
+    &-x {
+      overflow-x: hidden;
+      overflow-y: auto;
+    }
+  }
+  &-f {
+    &l {float: left;}
+    &r {float: right;}
+  }
+
+  &-mc {
+    margin: 0 auto;
+  }
+
+  &-pr {
+    position: relative;
+  }
+
+  &-explain {
+    padding: .05rem .1rem;
+    border-left: .02rem solid rgb(203, 166, 108)
+  }
+  &-bottom {
+    position: absolute;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+}
+
+.color {
+  &-w {
+    color: #ffffff;
+  }
+  &-d2c9cf {
+    color: #d2c9cf;
+  }
+  &-0079fe {
+    color: #0079fe !important;
+  }
+  &-b {
+    color: #000000;
+  }
+  &-c90 {
+    color: #c90;
+  }
+  &-666 {
+    color: #666666;
+  }
+  &-8f591d {
+    color: #8f591d;
+  }
+}
+.bg {
+  &-w {
+    background-color: #ffffff;
+  }
+  &-0079fe {
+    background-color: #0079fe;
+  }
+  &-323178 {
+    background-color: #323178;
+  }
+  &-d7 {
+    background-color: #d7d7d7;
+  }
+  &-f2d8b7 {
+    background-color: #f2d8b7;
+  }
+  &-e3c7a2 {
+    background-color: #e3c7a2;
+  }
+  &-f2 {
+    background-color: #f2f2f2;
+  }
+  &-bc {
+    background-color: #bcbcbc;
+  }
+  &-e4 {
+    background-color: #e4e4e4;
+  }
+  &-cba66c {
+    background-color: #cba66c;
+  }
+  &-e5c997 {
+    background-color: #e5c997;
+  }
+  &-f08f09 {
+    background-color: #f08f09;
+  }
+  &-19b7fd {
+    background-color: #19b7fd;
+  }
+  &-3cb035 {
+    background-color: #3cb035;
+  }
+  &-e4 {
+    background-color: #e4e4e4;
+  }
+}
+
+.mg {
+  &5 {margin: .05rem;}
+  &10 {margin: .1rem;}
+  &-t {
+    &5 {
+      margin-top: .05rem;
+    }
+    &10 {
+      margin-top: .1rem;
+    }
+    &20 {
+      margin-top: .2rem;
+    }
+    &40 {
+      margin-top: .4rem;
+    }
+  }
+
+  &-l {
+    &10 {
+      margin-left: .1rem;
+    }
+    &20 {
+      margin-left: .2rem;
+    }
+  }
+}
+
+.pad {
+  &5 {
+    padding: .05rem;
+  }
+  &10 {
+    padding: .1rem;
+  }
+  &20 {
+    padding: .2rem;
+  }
+
+  &-l {
+    &5 {
+      padding: 0 .05rem;
+    }
+    &10 {
+      padding: 0 .1rem;
+    }
+    &20 {
+      padding: 0 .2rem;
+    }
+  }
+
+  &-n {
+    &5 {
+      padding: .05rem 0;
+    }
+    &10 {
+      padding: .1rem 0;
+    }
+    &20 {
+      padding: .2rem 0;
+    }
+  }
+}
+
+.radius {
+  &50 {
+    border-radius: 50%;
+    overflow: hidden;
+  }
+  &-50 {
+    border-radius: .5rem;
+  }
+  &-20 {
+    border-radius: .2rem;
+  }
+  &-40 {
+    border-radius: .4rem;
+  }
+  &-10 {
+    border-radius: .1rem;
+  }
+  &-5 {
+    border-radius: .05rem;
+  }
+}
+.font {
+  &-w {
+    font-weight: bold;
+  }
+  &-big {
+    font-size: .28rem;
+  }
+  &-md {
+    font-size: .18rem;
+  }
+  &-mini {
+    font-size: .10rem;
+  }
+}
+.border {
+  border: .01rem solid transparent;
+  &-black {
+    border-color: #000000;
+  }
+  &-fc3 {
+    border-color: #fc3;
+  }
+  &-f2 {
+    border-color: #f2f2f2;
+  }
+  &-vip {
+    border-color: #8f591d;
+  }
+  &-c9 {
+    border-color: #c9c9c9;
+  }
+  &-bottom {
+    border-bottom: .01rem solid #e9e9e9 !important;
+  }
+  &-none input, &-none {
+    border: 0;
+    outline: 0;
+  }
+  &-shadow {
+    box-shadow: .05rem .05rem .1rem rgba(0, 0, 0, .5);
+  }
+}
+
+.img {
+  &-block {
+    width: 100%;
+    height: 100%;
+  }
+}
